@@ -4,4 +4,4 @@
 
 type Unshift<T extends unknown[], V> = [V, ...T];
 
-type Result = Unshift<[1, 2], 0>;
+type Result2 = Unshift<[1, 2], 0>;

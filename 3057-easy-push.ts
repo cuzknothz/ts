@@ -4,4 +4,4 @@
 
 type Push<T extends unknown[], V> = [...T, V];
 
-type Result = Push<[1, 2], "3">;
+type Result3 = Push<[1, 2], "3">;
