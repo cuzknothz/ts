@@ -11,4 +11,4 @@ interface Todo {
   description: string;
 }
 
-type PickTitle = MyPick<Todo, "title">;
+type PickTitle = Pick<Todo, "title">;
